@@ -2,7 +2,7 @@
  * @Author: QiuShui
  * @Date: 2022-03-28 16:13:44
  * @LastEditors: Qiushui
- * @LastEditTime: 2022-03-29 23:06:29
+ * @LastEditTime: 2022-03-30 16:18:02
  * @FilePath: /SandBoxTest-Vue2.0/src/1-组件通信方式/attrAndListener/GrandPa.vue
  * @Description: 
  * 
@@ -11,6 +11,7 @@
 <template>
   <div class="grandpa">
     父组件
+    <button @click="deal">触发watch吗？</button>
     <son-one :name="name" :age="age" :work="work" @printInfo="printInfo" />
   </div>
 </template>
