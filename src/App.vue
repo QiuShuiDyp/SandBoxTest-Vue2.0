@@ -2,7 +2,7 @@
  * @Author: QiuShui
  * @Date: 2022-03-28 16:05:55
  * @LastEditors: Qiushui
- * @LastEditTime: 2022-03-30 17:40:51
+ * @LastEditTime: 2022-03-31 11:13:49
  * @FilePath: /SandBoxTest-Vue2.0/src/App.vue
  * @Description: 
  * 
@@ -10,18 +10,18 @@
 -->
 <template>
   <div id="app">
-    <VuexTest />
+    <VueRouterDemo />
   </div>
 </template>
 
 <script>
 // import GrandPa from './1-组件通信方式/attrAndListener/GrandPa.vue'
-import VuexTest from './2-vuex/VuexTest.vue'
+import VueRouterDemo from './3-vue-router/VueRouterDemo.vue'
 
 export default {
   name: "App",
   components: {
-    VuexTest
+    VueRouterDemo
   }
 };
 </script>
